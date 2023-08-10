@@ -110,3 +110,34 @@ button{
     border-radius: 12px;
     margin-bottom: 10px;
 }
+
+/* quote styling */
+
+
+.quote-container{
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-block{
+    flex-basis: 900px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    word-wrap: break-word;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.credit{
+    text-align: right;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: bolder;
+}
