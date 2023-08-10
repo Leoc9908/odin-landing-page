@@ -34,7 +34,47 @@
 
 /* main syling */
 
-/* .main{
+.main{
     background-color: #1F2937;
-    color:
-} */
+    padding: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .main-text,
+.main .image-holder{
+    width: 445px;
+    height: 250px;
+}
+
+.main .image-holder{
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    
+}
+
+.main .main-text h1{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.main .main-text p{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
