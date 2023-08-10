@@ -141,3 +141,32 @@ button{
     color: #1F2937;
     font-weight: bolder;
 }
+
+
+/* signup styling */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.signup .container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+
+    flex-basis: 1000px;
+    padding: 50px 0;
+    border-radius: 5px;
+    color:#F9FAF8 ;
+}
+
+.signup .container .special{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup button{
+    border: 2px solid #F9FAF8;
+}
